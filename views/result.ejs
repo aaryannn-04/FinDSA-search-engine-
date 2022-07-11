@@ -1,0 +1,23 @@
+<html lang="en">
+  <%- include("./partials/head.ejs") %>
+
+  <body>
+    <%- include("./partials/nav.ejs") %>
+
+    <div class="">
+      <h2>Search Results</h2>
+      <p><h3><%= data[0].title %></h3>
+      <a href="<%= data[0].url %>">Click here to practice!</a></p>
+      <p><h3><%= data[1].title %></h3>
+      <a href="<%= data[0].url %>">Click here to practice!</a></p>
+      <p><h3><%= data[2].title %></h3>
+      <a href="<%= data[0].url %>">Click here to practice!</a></p>
+      <p><h3><%= data[3].title %></h3>
+      <a href="<%= data[0].url %>">Click here to practice!</a></p>
+      <p><h3><%= data[4].title %></h3>
+      <a href="<%= data[0].url %>">Click here to practice!</a></p>
+    </div>
+
+    <%- include("./partials/footer.ejs") %>
+  </body>
+</html>

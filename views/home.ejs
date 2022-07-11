@@ -1,0 +1,21 @@
+<html lang="en">
+  <%- include("./partials/head.ejs") %>
+
+  <body>
+    <%- include("./partials/nav.ejs") %>
+
+    <form action="/search">
+      <div class="search">
+        <input
+          type="text"
+          name="query"
+          id="query"
+          placeholder="enter your query"
+        />
+      </div>
+      <button type="submit">Search</button>
+    </form>
+
+    <%- include("./partials/footer.ejs") %>
+  </body>
+</html>
