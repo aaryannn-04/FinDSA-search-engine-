@@ -8,6 +8,7 @@ tf_idf = new TfIdf();
 const pathArray = [];
 for (let i = 1; i <= 1955; i++) {
   pathArray.push(`./problems/problem${i}.txt`);
+  
 }
 var corpus = tf_idf.createCorpusFromPathArray(pathArray);
 
