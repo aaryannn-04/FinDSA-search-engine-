@@ -26,6 +26,9 @@
       display: flex;
       justify-content: space-between;
       align-items: flex-end;
+      color:red;
+      background-color: blue;
+      display: block;
     }
     nav li{
       list-style-type: none;
